@@ -24,7 +24,8 @@ Finora helps users track income, expenses, budgeting, analytics, and financial i
 ### 📊 Dashboard
 
 <img width="1345" height="749" alt="image" src="https://github.com/user-attachments/assets/9eb00632-8e9e-4a76-95e8-5d47f4460fff" />
-### 🔥 Expense Analysis
+
+###  🔥 Expense Analysis
 
 <img width="1335" height="695" alt="image" src="https://github.com/user-attachments/assets/815634b7-3939-4ace-8a50-cb24e284739a" />
 
