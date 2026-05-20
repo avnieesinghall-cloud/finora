@@ -8,7 +8,7 @@ Finora helps users track income, expenses, budgeting, analytics, and financial i
 
 ## 🌐 Live Demo
 
-🔗 Live App: https://finora-rogue.vercel.app
+🔗 [Live Finora App](https://finora-f8fmyls40-avni-singhals-projects-e379242d.vercel.app/)
 
 🔗 Backend API: https://finora-backend-ons2.onrender.com
 
