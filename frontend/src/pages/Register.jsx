@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import API from "../api/expenseApi";
-
 import toast from "react-hot-toast";
 
 function Register() {
@@ -28,16 +27,22 @@ function Register() {
       navigate("/dashboard");
 
     } catch (error) {
-  console.log("REGISTER ERROR:", error.response?.data || error.message);
 
-  toast.error(
-    error.response?.data?.message || "Registration Failed"
-  );
-}
+      console.log(
+        "REGISTER ERROR:",
+        error.response?.data || error.message
+      );
+
+      toast.error(
+        error.response?.data?.message || "Registration Failed"
+      );
+    }
+  };
 
   return (
     <div className="auth-page">
       <form className="auth-card" onSubmit={handleRegister}>
+
         <h1>Create Account</h1>
 
         <p>Start managing your finances smarter</p>
@@ -73,6 +78,7 @@ function Register() {
         <Link to="/login">
           Already have an account? Login
         </Link>
+
       </form>
     </div>
   );
