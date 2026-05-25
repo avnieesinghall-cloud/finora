@@ -28,11 +28,12 @@ function Register() {
       navigate("/dashboard");
 
     } catch (error) {
-      toast.error(
-        error.response?.data?.message || "Registration Failed"
-      );
-    }
-  };
+  console.log("REGISTER ERROR:", error.response?.data || error.message);
+
+  toast.error(
+    error.response?.data?.message || "Registration Failed"
+  );
+}
 
   return (
     <div className="auth-page">
