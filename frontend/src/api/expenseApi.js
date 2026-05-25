@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: `${import.meta.env.VITE_API_URL}/api`,
+  baseURL: "https://finora-backend-ons2.onrender.com/api",
 });
 
 API.interceptors.request.use((config) => {
